@@ -47,7 +47,9 @@ body > section:nth-of-type(odd) {
   text-align: center;
   font-weight: normal;
   font-size: 200%;
-  font-family: sans-serif; font-weight:600; font-style:italic;
+  font-family: sans-serif;
+  font-weight:600;
+  font-style:italic;
 }
 
 .section-summary{
@@ -63,7 +65,9 @@ body > section:nth-of-type(odd) {
   background: rgba(51, 51, 51, .9);
   color:#fff;
   display: none;
-  font-family: sans-serif; font-weight:600; font-style:italic;
+  font-family: sans-serif;
+  font-weight:600;
+  font-style:italic;
 }
 
 #menu.shown {
@@ -99,7 +103,6 @@ body > section:nth-of-type(odd) {
 }
 
 .main-visual {
-  /*background: url(../sample01.jpg);*/
   background-size: auto 100%;
   padding: 150px 0;
   text-align: center;
@@ -108,7 +111,9 @@ body > section:nth-of-type(odd) {
 .main-visual h1{
   font-weight: normal;
   font-size: 205%;
-  font-family: sans-serif; font-weight:600; font-style:italic;
+  font-family: sans-serif;
+  font-weight:600;
+  font-style:italic;
   color: #ffffff;
   display: inline-block;
   background: #333;
@@ -126,12 +131,18 @@ body > section:nth-of-type(odd) {
 .service-item h3 {
   text-align: center;
   font-weight: normal;
-  font-family: sans-serif; font-weight:600; font-style:italic;
+  font-family: sans-serif;
+  font-weight:600;
+  font-style:italic;
   font-size: 140%;
   color: #ffffff;
   display: inline-block;
   padding: 1px 10px;
   background:#444;
+}
+
+.service-item p {
+  margin-top: 0px;
 }
 
 .service-item:not(:last-child) {
