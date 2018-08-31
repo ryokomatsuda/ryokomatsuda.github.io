@@ -118,7 +118,6 @@ body > section:nth-of-type(odd) {
   display: inline-block;
   background: #333;
   padding: 1px 5px;
-  line-height:1em
 }
 
 .main-visual a i{
