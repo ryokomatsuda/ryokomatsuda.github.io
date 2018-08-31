@@ -112,11 +112,15 @@ body > section:nth-of-type(odd) {
   color: #ffffff;
   display: inline-block;
   background: #333;
-  padding: 5px;
+  padding: 1px 5px;
 }
 
 .main-visual a i{
-  margin-top: : 300px;
+  margin-top: : 300px
+}
+
+.service-item{
+  text-align: center;
 }
 
 .service-item h3 {
@@ -125,11 +129,9 @@ body > section:nth-of-type(odd) {
   font-family: sans-serif; font-weight:600; font-style:italic;
   font-size: 140%;
   color: #ffffff;
-}
-
-.service-item h3 span {
-padding: 5px 10px;
-background:#444;
+  display: inline-block;
+  padding: 1px 10px;
+  background:#444;
 }
 
 .service-item:not(:last-child) {
@@ -149,23 +151,36 @@ background:#444;
   margin-bottom: 60px;
 }
 
-a.cp_btn {
-  display: block;
-  width: 150px;
-  padding: 0.8em;
-  text-align: center;
-  text-decoration: none;
-  background: #444;
-  color: #fff;
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
   margin: 0 auto;
-  border: 2px solid #444;
-  transition: .4s;
+  display: block;
 }
 
-a.cp_btn:hover {
-  color: #333;
-  border: 2px solid #444;
+a.btn {
+  display: block;
+  width: 180px;
+  padding: 1em 0em;
+  text-align: center;
+  text-decoration: none;
   background: #fff;
+  color: #444;
+  margin: 0 auto;
+  border: 1.5px solid #444;
+  transition: .4s;
+  font-weight: normal;
+  font-size: 150%;
+}
+
+a.btn:hover {
+  color: #fff;
+  border: 2px solid #444;
+  background: #444;
 }
 
 .about img{
