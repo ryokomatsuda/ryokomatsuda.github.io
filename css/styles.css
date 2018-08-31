@@ -114,11 +114,12 @@ body > section:nth-of-type(odd) {
 
 .main-visual h1 span{
   background: #333;
-  padding: 5px
+  padding: 5px;
+  letter-spacing: 0.05em;
 }
 
 .main-visual a i{
-  margin-top: : 300px
+  margin-top: : 300px;
 }
 
 .service-item h3 {
