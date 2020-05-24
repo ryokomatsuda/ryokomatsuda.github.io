@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Ryoko Matsuda</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="js/smooth-scroll.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <i id="open_menu" class="fas fa-bars"></i>
+      <nav id="menu">
+        <i id="close_menu" class="fas fa-times"></i>
+        <ul>
+          <li><a href="index.html">Top</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="index.html#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="double space" id="top">
+    <div class="container">
+      <section class="double-item clearfix">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IF4aKHybBi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="double-txt">
+          <h1 class="project-ttl">Project&nbsp;3&nbsp;:<br>”みんな”が主役のIT×ものづくり発表会<br><span>Wonder Make Fes</span></h1>
+      </div>
+      </section>
+      <p class="font-smaller project-summary">
+        Wonder Make Fesは日本最大級の子ども向けIT×ものづくりの祭典です。<br>
+前職である株式会社LITALICOが主催しており、第1回〜第4回は現職で、第5回〜第6回はフリーランスとして関わらせていただいています。
+現職ではコンセプト立案やロゴ選定などデザインに関わる業務総括、マーケティングや会場設計などを担当し、フリーランスになってからは当日までに必要な各種ツールのデザイン制作や新規施策の提案を行っています。
+
+
+</p>
+
+    </div>
+  </section>
+
+  <section class="double">
+    <div class="container">
+
+      <h2 class="project-ttl-sub">施策提案</h2>
+
+      <section class="double-item clearfix">
+        <img src="img/wmf-hat.png">
+        <div class="double-txt font-smaller">
+          <p>本イベントは大人が全て用意してあげ、子どもが受け身で参加するのではなく、子ども自身が運営スタッフもしているのが特徴の１つです。そのため、大人スタッフはまず子どもスタッフも参加できるお仕事の切り出しを行いますが、その1つである会場装飾スタッフのお仕事内容が具体的に決まっていないとご相談受けました。<br><br>
+            そこで、子どもスタッフへ会場を盛り上げるツール制作を依頼することをご提案し、具体的には「厚紙を円状にカットし、中央に切り込みを入れて作るハット」をデザインしました。スタッフがカットして来場者に配布し、来場者はそれに折り紙や紐などをつけて飾り付けすることで、一人ひとりちがうフェスアクセサリーにしてイベントを楽しむことができます。<br><br>
+            また、マーケティングの視点から、よりSNSで拡散が期待できるツールとして「ロゴやハッシュタグ入りのフォトプロップス」のデザインも行いました。
+
+どちらのツールも子どもスタッフがカットを行うため、できるだけカッターを使わずハサミだけで完結するデザインを心がけました。
+          </p>
+      </div>
+      </section>
+
+      <h2 class="project-ttl-sub">各種ツール</h2>
+
+      <section class="double-item clearfix">
+        <img src="img/wmf-key.png">
+        <div class="double-txt font-smaller">
+          <p>
+            当日までに必要なチラシやガイドライン、イベント内コンテストの表彰状や設置看板、グッズ、プレゼンスライド用テンプレート＆フッターなど様々なツールをデザインしました。
+          </p>
+      </div>
+      </section>
+      <section class="double-img clearfix">
+        <img src="img/wmf-award.png">
+        <img src="img/wmf-copyright.png">
+      </section>
+      <section class="double-img clearfix">
+        <img src="img/wmf-ev.png">
+        <img src="img/wmf-ppt.png">
+      </section>
+
+    </div>
+  </section>
+
+  <section class="single" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+          <p class="font-bigger">mazda.ryoko[at]gmail.com</p>
+     </div>
+  </section>
+  <footer>
+    <a href="#top"><i class="fas fa-angle-double-up"></i></a>
+    <p><small>&copy; Ryoko Matsuda</small></p></footer>
+
+  <script>
+  <!--nav-->
+  (function() {
+    'use strict';
+
+    var openMenu = document.getElementById('open_menu');
+    var closeMenu = document.getElementById('close_menu');
+    var menu = document.getElementById('menu');
+
+    openMenu.addEventListener('click', function() {
+      menu.classList.add('shown');
+    });
+
+    closeMenu.addEventListener('click', function() {
+      menu.classList.remove('shown');
+    });
+  })();
+
+  <!--smooth scroll-->
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500, // 速度
+    offset: 0, // オフセット
+    easing: 'easeInOutCubic', // アニメーション効果
+  });
+
+  </script>
+
+</body>
+</html>
