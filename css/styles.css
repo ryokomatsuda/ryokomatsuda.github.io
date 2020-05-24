@@ -260,6 +260,32 @@ dd{
   margin: 0;
 }
 
+.project-ttl{
+  font-size: 1.5rem;
+  color: #333;
+  background-color: #e3ff90;
+  line-height: 4.5rem;
+}
+.project-ttl span{
+  font-size: 4rem;
+}
+.project-summary{
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.width-full{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.project-ttl-sub{
+  border-left: solid 8px #444;
+/*  border-bottom: solid 1px #444;*/
+  padding: 0 0 0 30px;
+  margin: 50px 0;
+}
+
 /* ---- medium screens ---- */
 @media (min-width: 570px) {
 
