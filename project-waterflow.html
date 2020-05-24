@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Ryoko Matsuda</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="js/smooth-scroll.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <i id="open_menu" class="fas fa-bars"></i>
+      <nav id="menu">
+        <i id="close_menu" class="fas fa-times"></i>
+        <ul>
+          <li><a href="index.html">Top</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="index.html#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="double space" id="top">
+    <div class="container">
+      <section class="double-item clearfix">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XlZJT0KzmGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="double-txt">
+          <h1 class="project-ttl">Project&nbsp;5&nbsp;:<br>コンテンポラリーダンス公演<br><span>Water Flow</span></h1>
+      </div>
+      </section>
+      <p class="font-smaller project-summary">
+        Water Flowは舞踊家・清水フミヒト氏が構成・演出・振付を手掛けるコンテンポラリーダンス公演です。2015年からコンスタントに日本各地やアメリカで開催されています。
+<br>
+私は2017年札幌開催用の告知と当日に必要なツール一式をデザインしました。清水氏は私にとって大学時代にダンスや作品作りの楽しさを教えてくれた恩師でもあります。それまでに身近で見聞きしてきた氏の世界観や大切にしている価値観をできるだけ紙面にビジュアル化し、公演に来る前でも当日会場でも雰囲気に没入できるよう意識して制作しました。
+</p>
+
+    </div>
+  </section>
+
+  <section class="double">
+    <div class="container">
+
+      <section class="double-item clearfix">
+        <img src="img/wf-poster.png">
+        <div class="double-txt font-smaller">
+          <p>
+            まず制作にあたり、本公演のテーマや「今」の思い、頭に巡っているイメージなどをご本人にヒアリングし、ビジュアルにおけるコンセプトを自分なりに言語化しました。</p>
+<hr>
+<p>
+  月光照らす  凪いだ海<br>
+  みなもの底から  そらを見上げる<br>
+<br>
+  暗い暗い  夜の海<br>
+  深い深い  水の中から  光を感じる<br>
+<br>
+  闇と光の狭間<br>
+  静から動  生じ<br>
+<br>
+  かたちうつろい<br>
+  こころうつろい<br>
+  あおく  あおく  あおく<br>
+<br>
+  いつまでも揺蕩う水<br>
+  続いていく時の流れ<br>
+<br>
+  もう戻らない時を重ねる
+          </p>
+          <hr>
+          <p>
+                      この言葉を元にまずポスターを制作しました。題字は既存フォントではなく清水氏の父・直人氏の書を用いました。
+</p>
+<p>その後、ポスターで作ったビジュアルをDMやパンフレット、チケットなどへ展開していきました。</p>
+      </div>
+      </section>
+
+
+<section class="double-img clearfix">
+  <img src="img/wf-pnf.png">
+  <img src="img/wf-ticket.png">
+</section>
+
+
+    </div>
+  </section>
+
+  <section class="single" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+          <p class="font-bigger">mazda.ryoko[at]gmail.com</p>
+     </div>
+  </section>
+  <footer>
+    <a href="#top"><i class="fas fa-angle-double-up"></i></a>
+    <p><small>&copy; Ryoko Matsuda</small></p></footer>
+
+  <script>
+  <!--nav-->
+  (function() {
+    'use strict';
+
+    var openMenu = document.getElementById('open_menu');
+    var closeMenu = document.getElementById('close_menu');
+    var menu = document.getElementById('menu');
+
+    openMenu.addEventListener('click', function() {
+      menu.classList.add('shown');
+    });
+
+    closeMenu.addEventListener('click', function() {
+      menu.classList.remove('shown');
+    });
+  })();
+
+  <!--smooth scroll-->
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500, // 速度
+    offset: 0, // オフセット
+    easing: 'easeInOutCubic', // アニメーション効果
+  });
+
+  </script>
+
+</body>
+</html>
