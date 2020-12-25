@@ -31,10 +31,17 @@ a{
 }
 
 .repletion-box{
-background: #cccccc;
-padding: 20px;
-font-size:1.4rem;
+  background: #f2f2f2;
+  padding: 20px;
+  font-size:1.4rem;
+  width: 70%;
+  margin: 0 auto 40px auto;
 }
+
+.repletion-box p{
+  margin: 0;
+}
+
 p {
   line-height: 2;
 }
