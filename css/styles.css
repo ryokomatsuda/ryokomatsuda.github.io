@@ -30,6 +30,11 @@ a{
   margin: 0 auto;
 }
 
+.repletion-box{
+background: #cccccc;
+padding: 20px;
+font-size:1.4rem;
+}
 p {
   line-height: 2;
 }
